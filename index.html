@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>SVG CON CSS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="container">
+            <div class="row py-4">
+                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                    <h1 class="mb-2 mt-5 text-center">SVG CON CSS</h1>
+
+                    <h2 class="mb-5 text-center text-uppercase fs-6">Vicente de Vidts & Daniel Carmona</h2>
+
+                    <p class="lead">En esta página les mostraremos distintas maneras de aplicar css con svg a través de la manipulación de distintos iconos sobre la higiene personal, utilizando animaciones, transiciones e incorporando elementos externos. </p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <h3 class="text-center fs-4">Una animación con CSS</h3>
+                        
+                        <p>En la siguiente animación se aplica translate y rotate. De esta manera vemos como el gatillo se aprieta y el desinfectante se esparce. Además se modifica la opacidad de las gotas de desinfectante para que estas después de cierta distancia desaparezcan.</p>
+                        
+                        <div class="w-75 mx-auto">
+                            <object data="img/costume_animacion.svg" type="image/svg+xml" class="w-100 my-3"></object>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <h3 class="text-center fs-4 mt-5">Una transición con CSS</h3>
+                        
+                        <p>Las transiciones nos permiten interactuar con los iconos. De esta manera en este ejemplo podemos observar el contenido de la botella, al colocar el cursor sobre ella.</p>
+                        
+                        <div class="w-75 mx-auto">
+                            <object data="img/costume_transicion.svg" type="image/svg+xml" class="w-100 my-3"></object>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <h3 class="text-center fs-4 mt-5">Una transición con CSS y algo más</h3>
+                        
+                        <p>En este último ejemplo vemos como, al colocar el cursor sobre el icono, el relleno cambia a una imagen externa de jabón con burbujas. Es importante lavarse las manos frecuentemente.</p>
+                        
+                        <div class="w-75 mx-auto">
+                            <object data="img/tsunami.svg" type="image/svg+xml" class="w-100 mb-5"></object>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer class="bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <a href="https://github.com/profesorfaco/dno075-2023-1/" class="link-dark">Infografía Digital</a>
+                            <a href="https://github.com/profesorfaco/dno075-2023-1/tree/main/clase-07" class="link-dark">Martes 18 de abril, 2023</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
